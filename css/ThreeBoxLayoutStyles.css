@@ -1,0 +1,62 @@
+/* Three Box Layout */
+*{
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+/* vh and vw are %verticalheight %verticalwidth*/
+#logo {
+	height: 3vh;
+	width: 30vw;
+    margin-left: 3vw;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+	float: left;
+	background: black;
+}
+
+#menu {
+	height: 3vh;
+	width: 30vw;
+    margin-right: 3vw;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+	float: right;
+}
+
+.menuItems {
+    width: 7.99vw;
+    margin-left: 2vw;
+    float: right;
+    background: black;
+    list-style-type: none; 
+    
+}
+
+#main {
+	height: 56.7vh;
+	width: 94vw;
+	margin-left: 3vw;
+	margin-right: 3vw;
+	clear: both;
+	background: black;
+}
+
+#left {
+    height: 28.3vh;
+    width: 45.5vw;
+    margin-left: 3vw;
+    margin-top: 3vh;
+    float: left;
+    background: black;
+}
+
+#right {
+    height: 28.3vh;
+    width: 45.5vw;
+    margin-right: 3vw;
+    margin-top: 3vh;
+    float: right;
+    background: black;
+}
+

@@ -1,0 +1,80 @@
+/* Advanced Grid Layout */
+*{
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+
+#logo {
+	height: 9vh;
+	width: 15vw;
+    margin-left: 3vw;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+	float: left;
+	background: black;
+}
+
+#menu {
+	height: 3vh;
+	width: 30vw;
+    margin-right: 3vw;
+    margin-top: 6vh;
+    margin-bottom: 6vh;
+	float: right;
+}
+
+.menuItems {
+    height: 3vh;
+    width: 7.99vw;
+    margin-left: 2vw;
+    float: right;
+    background: black;
+    list-style-type: none;
+}
+
+#main{
+	height: 50vh;
+	width: 94vw;
+	margin-left: 3vw;
+	margin-right: 3vw;
+    margin-bottom: 6vh;
+	clear: both;
+	background: black;
+}
+
+#gridTitle {
+    height: 3vh;
+    width: 20vw;
+    margin-left: 3vw;
+    margin-bottom: 3vh;
+    float: left;
+    background: black;
+}
+
+#bottom {
+    height: 20vh;
+    width: 94vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-bottom: 6vh;
+    float: left;
+    list-style-type: none;
+}
+
+.bottomItems {
+    height: 20vh;
+    width: 20.5vw;
+    margin-left: 3vw;
+    float: left;
+    background: black;
+    list-style-type: none;
+}
+
+.bottomItems:first-child {
+    height: 20vh;
+    width: 47vw;
+    margin-left: 0vw;
+    float: left;
+    list-style-type: none;
+}

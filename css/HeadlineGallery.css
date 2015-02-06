@@ -1,0 +1,81 @@
+/* Headline & Gallery */
+*{
+	padding: 0;
+	border: 0;
+	margin: 0;
+    font-family: arial, sans-serif;
+}
+/* vh and vw are %verticalheight %verticalwidth*/
+#logo{
+	height: 6vh;
+	width: 15vw;
+    margin-left: 4vw;
+    margin-top: 3vh;
+    margin-bottom: 6vh;
+	float: left;
+	background: black;
+}
+
+#menu{
+	height: 3vh;
+	width: 30vw;
+    margin-right: 3vw;
+    margin-top: 4.5vh;
+    margin-bottom: 7.5vh;
+	float: right;
+}
+
+.menuItems {
+    height: 3vh;
+    width: 7.99vw;
+    margin-left: 2vw;
+    float: right;
+    background: black;
+    list-style-type: none; 
+    
+}
+
+#headline {
+    width: 75vw;
+    margin-left: 4vw;
+    margin-bottom: 3vh;
+    float: left;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#text {
+    width: 75vw;
+    margin-left: 4vw;
+    margin-bottom: 6vh;
+    float: left;
+    font-size: 1.5em;
+}
+
+#gallery {
+    height: 20vh;
+    width: 92vw;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    margin-bottom: 3vh;
+    float: left;
+    list-style-type: none;
+}
+
+.galleryItems {
+    height: 20vh;
+    width: 28.66vw;
+    margin-left: 3vw;
+    margin-bottom: 3vh;
+    float: left;
+    background: black;
+    list-style-type: none;
+}
+
+.galleryItems:first-child {
+    height: 20vh;
+    width: 28.66vw;
+    margin-left: 0vw;
+    float: left;
+    list-style-type: none;
+}

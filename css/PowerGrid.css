@@ -1,0 +1,183 @@
+/* Power Grid */
+*{
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+/* vh and vw are %verticalheight %verticalwidth*/
+#logo {
+	height: 8vh;
+	width: 25vw;
+    margin-left: 3vw;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+	float: left;
+	background: black;
+}
+
+#menu {
+	height: 4vh;
+	width: 67.5vw;
+    margin-right: 3vw;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+	float: right;
+}
+
+.menuItems {
+    height: 4vh;
+    width: 18vw;
+    float: right;
+    background: black;
+    list-style-type: none; 
+    
+}
+
+.menuItems:first-child {
+    height: 4vh;
+    width: 18vw;
+    background: black;
+    float: left;
+    list-style-type: none; 
+    
+}
+
+#seperator {
+    height: 8vh;
+    width: 94vw;
+    margin-left: 3vw;
+    margin-bottom: 2vh;
+    float: left;
+    background: black;
+}
+
+#grid {
+    height: 40vh;
+    width: 94vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-bottom: 2vh;
+    float: left;
+    list-style-type: none;
+}
+
+.gridItems {
+    height: 40vh;
+    width: 30.66vw;
+    margin-left: 2vw;
+    float: left;
+    background: black;
+    list-style-type: none;
+}
+
+.gridItems:first-child {
+    height: 40vh;
+    width: 61.33vw;
+    margin-left: 0vw;
+    float: left;
+    list-style-type: none;
+}
+    
+#content {
+    height: 110vh;
+    width: 94vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    float: left;
+    background: black;
+}
+
+#contentGrid {
+    height: 40vh;
+    width: 59.33vw;
+    margin-left: 2vw;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    float: left;
+    list-style-type: none;
+}
+
+.contentGridItems {
+    height: 20vh;
+    width: 29vw;
+    margin-left: 1vw;
+    margin-bottom: 3vh;
+    float: left;
+    background: white;
+    list-style-type: none;
+}
+
+.contentGridItems:first-child {
+    height: 20vh;
+    width: 29vw;
+    margin-left: 0vw;
+    margin-bottom: 2vh;
+    float: left;
+    background: white;
+    list-style-type: none;
+}
+
+#contentBar {
+    height: 102vh;
+    width: 28.66vw;
+    margin-right: 2vw;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    float: right;
+    background: white;
+}
+
+#contentMenu{
+	height: 4vh;
+	width: 59.33vw;
+    margin-left: 2vw;
+    margin-top: 8vh;
+    margin-bottom: 2vh;
+	float: left;
+}
+
+.contentMenuItems {
+    height: 4vh;
+    width: 18vw;
+    margin-right: 12vw;
+    float: left;
+    background: white;
+    list-style-type: none; 
+    
+}
+
+.contentMenuItems:last-child {
+    height: 4vh;
+    width: 18vw;
+    margin-right: 0vw;
+    float: left;
+    background: white;
+    list-style-type: none; 
+    
+}
+
+#contentGallery {
+    height: 50vh;
+    width: 59.33vw;
+    margin-left: 2vw;
+    margin-bottom: 4vh;
+    float: left;
+}
+
+.contentGalleryItems {
+    height: 44vh;
+    width: 29vw;
+    margin-left: 1vw;
+    float: left;
+    background: white;
+    list-style-type: none;
+}
+
+.contentGalleryItems:first-child {
+    height: 44vh;
+    width: 29vw;
+    margin-left: 0vw;
+    float: left;
+    background: white;
+    list-style-type: none;
+}
